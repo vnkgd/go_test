@@ -19,23 +19,52 @@ import "fmt"
 // 	fmt.Println("sum2 = ", sum2)
 // }
 
-func main() {
-	//одна переменная
-	var favCol = "Фиолетовый"
-	fmt.Println("Цвет = ", favCol)
+// func main() {
+// 	//одна переменная
+// 	var favCol = "Фиолетовый"
+// 	fmt.Println("Цвет = ", favCol)
 
-	//две переменные
-	bithDate, ageInYears := 2024, 124
-	fmt.Println("Год рождения = ", bithDate, "Возраст = ", ageInYears)
+// 	//две переменные
+// 	bithDate, ageInYears := 2024, 124
+// 	fmt.Println("Год рождения = ", bithDate, "Возраст = ", ageInYears)
 
-	//блочное присвоение
-	var (
-		firstInitial  = "A"
-		sunameInitial = "П"
-	)
-	fmt.Println("Инициалы = ", firstInitial, sunameInitial)
+// 	//блочное присвоение
+// 	var (
+// 		firstInitial  = "A"
+// 		sunameInitial = "П"
+// 	)
+// 	fmt.Println("Инициалы = ", firstInitial, sunameInitial)
 
-	var ageInDays int
-	ageInDays = 365 * ageInYears
-	fmt.Println("Возраст в днях =", ageInDays)
+// 	var ageInDays int
+// 	ageInDays = 365 * ageInYears
+// 	fmt.Println("Возраст в днях =", ageInDays)
+// }
+
+// функции в Go
+func sayHello() {
+	fmt.Println("Hellow, World. Go")
 }
+
+// func main() {
+// 	sayHello()
+// }
+
+// //
+// func greet(name string) {
+// 	fmt.Println("Hellow, ", name, "!!!")
+// }
+
+// func main() {
+// 	greet("Alice")
+// 	greet("Bob")
+// }
+
+// //
+// func add(a, b int) int {
+// 	return a + b
+// }
+
+// func main() {
+// 	result := add(5, 10)
+// 	fmt.Println("Сумма чисел будет равна: ", result)
+// }
